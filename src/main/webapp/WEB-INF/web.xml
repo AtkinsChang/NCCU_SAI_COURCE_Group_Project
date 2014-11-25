@@ -2,4 +2,7 @@
          xmlns="http://java.sun.com/xml/ns/javaee"
          xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
          version="3.0">
+    <listener>
+        <listener-class>edu.nccu.plsm.saiproject.resources.HitCounterListener</listener-class>
+    </listener>
 </web-app>

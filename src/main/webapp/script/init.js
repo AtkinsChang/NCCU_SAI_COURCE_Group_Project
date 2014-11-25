@@ -1,3 +1,10 @@
+$.get("/project/session");
+$.get("/project/messageboard/hitCount/count", function(data) {
+    $("#count").html(data);
+});
+$.get("/project/messageboard/hitCount/active", function(data) {
+    $("#active").html(data);
+});
 $('body').scrollspy({
     target: '.bs-docs-sidebar',
     offset: 40

@@ -38,6 +38,8 @@
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="../external">外部連結</a></li>
                 <li><a href="../board">留言板</a></li>
+                <li><a>在線人數 <span class="badge" id="active" ></span></a></li>
+                <li><a>總人數 <span class="badge" id="count" ></span></a></li>
             </ul>
         </nav>
     </div>
@@ -75,19 +77,34 @@
 
                 <div class="row bs-downloads">
                     <div class="col-sm-4">
-                        <h3 id="brain">人的大腦</h3>
-
-                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            <img src="img/brain.gif"/>
-                        </p>
+                        <h3 class="text-center" id="brain2">大腦分區圖</h3>
+                        <img class="center-block img-responsive" src="img/brain.png"/>
                     </div>
                     <div class="col-sm-4">
-                        <h3 id="brain-detail">大腦表面的溝回</h3>
-                        <img src="img/brain.jpg"/>
-                        </p>
+                        <h3 class="text-center" id="brain">人的大腦</h3>
+                        <img class="center-block img-responsive" src="img/brain.gif"/>
+                    </div>
+                    <div class="col-sm-4">
+                        <h3 class="text-center" id="brain-detail">大腦表面的溝回</h3>
+                        <img class="center-block img-responsive" src="img/brain.jpg"/>
                     </div>
                 </div>
             </div>
+
+            <div class="bs-docs-section">
+                <h1 id="neurone" class="page-header">神經元（neurone）</h1>
+
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;神經元(神經細胞)是腦組成的基本單位之一，顧名思義，它的主要功能就是傳達神經信號。神經元可根據功能分為三大類：感覺神經元(sensory neuron)、運動神經元(motor neuron)、以及聯絡神經元(interneuron)。神經元主要由細胞體和神經觸突兩部分組成，而神經觸突則可細分為樹突和軸突。神經元透過內部的化學反應，形成電位差以傳遞神經信號。在腦中，無數的神經元彼此連接構成了龐大的神經網絡。</p>
+                <div class="row bs-downloads">
+                    <div class="col-sm-6">
+                        <img class="center-block img-responsive" src="img/neurone.jpg"/>
+                    </div>
+                    <div class="col-sm-6">
+                        <img class="center-block img-responsive" src="img/amphetamine-0.jpg"/>
+                    </div>
+                </div>
+            </div>
+
 
             <div class="bs-docs-section">
                 <h1 id="frontal-lobe" class="page-header">額葉（Frontal lobe）</h1>
@@ -334,6 +351,9 @@
                 <ul class="nav bs-docs-sidenav">
                     <li>
                         <a href="#main-brain">大腦藍圖</a>
+                    </li>
+                    <li>
+                        <a href="#neurone">神經元（neurone）</a>
                     </li>
                     <li>
                         <a href="#frontal-lobe">額葉（Frontal lobe）</a>

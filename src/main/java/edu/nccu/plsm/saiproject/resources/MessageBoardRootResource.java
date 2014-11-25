@@ -10,10 +10,18 @@ public class MessageBoardRootResource {
 
     @EJB
     MessageBoardResourceBean r;
+    @EJB
+    HitCounterBean h;
 
     @Path("messages")
     public MessageBoardResourceBean getMessageBoardResourceBean() {
         return r;
     }
+
+    @Path("hitCount")
+    public HitCounterBean getHitCounterBean() {
+        return h;
+    }
+
 }
 
